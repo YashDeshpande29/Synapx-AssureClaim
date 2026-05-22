@@ -1,0 +1,34 @@
+FIRST NOTICE OF LOSS - FNOL #005
+
+=== POLICY INFORMATION ===
+Policy Number: POL-2024-91100
+Policyholder Name: Rajesh Kumar Patel
+Effective Date Start: 2024-02-01
+Effective Date End: 2025-02-01
+
+=== INCIDENT INFORMATION ===
+Date of Loss: 2024-10-05
+Time of Loss: 03:20 PM
+Location: 87 Commerce Blvd, Bridgeport, CT 06604
+Description: The insured alleges the vehicle was stolen from a commercial parking garage. However, surveillance footage shows the vehicle leaving the garage with no signs of forced entry. The reported scenario appears staged and is inconsistent with the physical evidence collected by responding officers. Fraud indicators present.
+
+=== INVOLVED PARTIES ===
+Claimant Name: Rajesh Kumar Patel
+Claimant Phone: (203) 555-0890
+Claimant Email: rkpatel_bpt@mailbox.org
+Third Party Name: N/A
+Third Party Phone: N/A
+Third Party Insurance: N/A
+
+=== ASSET DETAILS ===
+Asset Type: Automobile
+Asset ID (VIN): 5YJSA1DN5DFP14705
+Year/Make/Model: 2022 Tesla Model S Long Range
+Estimated Damage: $67,000
+
+=== OTHER INFORMATION ===
+Claim Type: Theft
+Police Report Filed: Yes
+Report Number: BPD-2024-08811
+Attachments: police_report.pdf, garage_cctv_still.jpg
+Initial Estimate: $67,000

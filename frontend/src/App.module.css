@@ -1,0 +1,232 @@
+/* ── Layout ── */
+.page { min-height: 100vh; display: flex; flex-direction: column; }
+
+.header {
+  background: #1e293b;
+  color: #f8fafc;
+  padding: 18px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+}
+.headerInner { max-width: 860px; margin: 0 auto; display: flex; align-items: center; gap: 20px; }
+.logo { display: flex; align-items: center; gap: 10px; }
+.logoIcon { font-size: 1.6rem; }
+.logoText { font-size: 1.4rem; font-weight: 700; letter-spacing: -.5px; }
+.tagline { font-size: .85rem; color: #94a3b8; }
+
+.main { flex: 1; max-width: 860px; width: 100%; margin: 36px auto; padding: 0 20px 60px; }
+
+/* ── Card ── */
+.card {
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  padding: 28px 32px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.cardTitle { font-size: 1.2rem; font-weight: 700; margin-bottom: 6px; }
+.cardSub   { font-size: .88rem; color: #64748b; margin-bottom: 22px; }
+.sectionTitle { font-size: 1rem; font-weight: 600; margin-bottom: 14px; color: #1e293b; }
+
+/* ── Tabs ── */
+.tabs { display: flex; gap: 6px; margin-bottom: 20px; }
+.tab {
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  font-size: .88rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #475569;
+  transition: all .15s;
+}
+.tab:hover { background: #f1f5f9; }
+.tabActive {
+  background: #1e293b;
+  color: #f8fafc;
+  border-color: #1e293b;
+}
+
+/* ── Dropzone ── */
+.dropzone {
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color .2s, background .2s;
+  margin-bottom: 20px;
+  background: #f8fafc;
+  display: block;
+}
+.dropzone:hover { border-color: #6366f1; background: #f1f5f9; }
+.dropzoneDragging { border-color: #6366f1 !important; background: #eef2ff !important; }
+
+.dropIcon  { font-size: 2.5rem; display: block; margin-bottom: 10px; color: #94a3b8; }
+.dropText  { font-size: .95rem; font-weight: 500; color: #475569; margin-bottom: 12px; }
+.dropHint  { font-size: .8rem; color: #94a3b8; margin-top: 10px; }
+
+.browseBtn {
+  display: inline-block;
+  padding: 8px 22px;
+  background: #1e293b;
+  color: #f8fafc;
+  border-radius: 8px;
+  font-size: .88rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fileChosen { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
+.fileIcon   { font-size: 1.6rem; }
+.fileName   { font-weight: 600; color: #1e293b; font-size: .95rem; }
+.fileSize   { font-size: .8rem; color: #94a3b8; }
+.fileChange { font-size: .8rem; color: #6366f1; text-decoration: underline; cursor: pointer; }
+
+/* ── Textarea ── */
+.textarea {
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-family: 'Inter', monospace;
+  font-size: .85rem;
+  line-height: 1.6;
+  resize: vertical;
+  outline: none;
+  color: #1e293b;
+  margin-bottom: 20px;
+  transition: border-color .15s;
+}
+.textarea:focus { border-color: #6366f1; box-shadow: 0 0 0 3px #6366f115; }
+
+/* ── Submit button ── */
+.submitBtn {
+  width: 100%;
+  padding: 13px;
+  background: #1e293b;
+  color: #f8fafc;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background .15s;
+}
+.submitBtn:hover:not(:disabled) { background: #334155; }
+.submitBtn:disabled { opacity: .6; cursor: not-allowed; }
+
+/* ── Spinner ── */
+.spinner {
+  width: 18px; height: 18px;
+  border: 2.5px solid rgba(255,255,255,.35);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin .7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Error ── */
+.errorMsg {
+  color: #dc2626;
+  font-size: .85rem;
+  background: #fee2e2;
+  border: 1px solid #fca5a5;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+}
+
+/* ── Route banner ── */
+.routeBanner {
+  border-radius: 14px;
+  border: 1.5px solid;
+  padding: 20px 28px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.routeLabel { font-size: .78rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: #64748b; margin-bottom: 6px; }
+
+/* ── Badge ── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border-radius: 99px;
+  border: 1.5px solid;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* ── Reset button ── */
+.resetBtn {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: .85rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #475569;
+  white-space: nowrap;
+  transition: background .15s;
+}
+.resetBtn:hover { background: #f1f5f9; }
+
+/* ── Reasoning ── */
+.reasoning {
+  font-size: .9rem;
+  line-height: 1.7;
+  color: #374151;
+  background: #f8fafc;
+  border-left: 3px solid #6366f1;
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* ── Missing fields ── */
+.missingCard { border-color: #fca5a5 !important; }
+.missingList { display: flex; flex-wrap: wrap; gap: 8px; }
+.missingTag {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-size: .82rem;
+  font-weight: 500;
+}
+
+/* ── Fields table ── */
+.table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+.table tr:not(:last-child) td { border-bottom: 1px solid #f1f5f9; }
+.tdLabel {
+  padding: 10px 14px 10px 0;
+  color: #64748b;
+  font-weight: 500;
+  width: 200px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.tdValue {
+  padding: 10px 0;
+  color: #1e293b;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .card { padding: 20px 18px; }
+  .routeBanner { flex-direction: column; align-items: flex-start; }
+  .tdLabel { width: 130px; font-size: .8rem; }
+}

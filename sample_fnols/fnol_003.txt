@@ -1,0 +1,35 @@
+FIRST NOTICE OF LOSS - FNOL #003
+
+=== POLICY INFORMATION ===
+Policy Number: POL-2024-55901
+Policyholder Name: Derek Anthony Malone
+Effective Date Start: 2024-03-01
+Effective Date End: 2025-03-01
+
+=== INCIDENT INFORMATION ===
+Date of Loss: 2024-12-01
+Time of Loss: 06:45 PM
+Location: Route 44 & Elm St Intersection, Avon, CT 06001
+Description: Insured was making a left turn when struck by an oncoming vehicle traveling at high speed. The insured suffered whiplash and a fractured wrist. Passenger in insured vehicle also reported neck pain. Both were transported to Saint Francis Hospital by ambulance.
+
+=== INVOLVED PARTIES ===
+Claimant Name: Derek Anthony Malone
+Claimant Phone: (860) 555-0581
+Claimant Email: dmalone44@promail.net
+Third Party Name: Kevin T. Brooks
+Third Party Phone: (860) 555-0714
+Third Party Insurance: Nationwide Auto
+Third Party Policy: NW-44120-CT
+
+=== ASSET DETAILS ===
+Asset Type: Automobile
+Asset ID (VIN): 3VWFE21C04M000001
+Year/Make/Model: 2020 Volkswagen Jetta S
+Estimated Damage: $19,750
+
+=== OTHER INFORMATION ===
+Claim Type: Injury
+Police Report Filed: Yes
+Report Number: APD-2024-01122
+Attachments: hospital_records.pdf, accident_scene_photos.zip, police_report.pdf
+Initial Estimate: $19,750

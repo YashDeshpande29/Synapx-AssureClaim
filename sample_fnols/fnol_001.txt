@@ -1,0 +1,35 @@
+FIRST NOTICE OF LOSS - FNOL #001
+
+=== POLICY INFORMATION ===
+Policy Number: POL-2024-00123
+Policyholder Name: James Robert Harrington
+Effective Date Start: 2024-01-01
+Effective Date End: 2025-01-01
+
+=== INCIDENT INFORMATION ===
+Date of Loss: 2024-11-15
+Time of Loss: 08:32 AM
+Location: I-95 Northbound, Exit 42, Hartford, CT 06103
+Description: Insured vehicle was rear-ended by a third-party driver at a red light during morning rush hour. Airbags did not deploy. Vehicle sustained damage to the rear bumper and trunk area. No injuries reported at the scene.
+
+=== INVOLVED PARTIES ===
+Claimant Name: James Robert Harrington
+Claimant Phone: (860) 555-0174
+Claimant Email: jharrington@email.com
+Third Party Name: Maria Elena Vasquez
+Third Party Phone: (860) 555-0298
+Third Party Insurance: SafeGuard Auto Insurance
+Third Party Policy: SG-99021-CT
+
+=== ASSET DETAILS ===
+Asset Type: Automobile
+Asset ID (VIN): 1HGBH41JXMN109186
+Year/Make/Model: 2021 Honda Accord EX
+Estimated Damage: $8,500
+
+=== OTHER INFORMATION ===
+Claim Type: Property Damage
+Police Report Filed: Yes
+Report Number: HPD-2024-44821
+Attachments: photos_rear_damage.zip, police_report.pdf
+Initial Estimate: $8,500
